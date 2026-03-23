@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details - HomeCook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">🍳 HomeCook</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Recipe Hero -->
+    <div class="recipe-hero" id="recipeHero">
+        <div class="recipe-hero-overlay">
+            <div class="container">
+                <div class="recipe-hero-content" id="recipeHeroContent">
+                    <!-- Content will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recipe Meta Info -->
+    <div class="container">
+        <div class="recipe-meta" id="recipeMeta">
+            <!-- Meta info will be inserted here -->
+        </div>
+    </div>
+
+    <!-- Recipe Content -->
+    <div class="container">
+        <div class="recipe-detail-content">
+            <aside class="recipe-sidebar">
+                <div class="recipe-section">
+                    <h2>Ingredients</h2>
+                    <ul id="ingredientsList"></ul>
+                </div>
+                
+                <div class="recipe-section">
+                    <h2>Tips & Tricks</h2>
+                    <ul id="tipsList"></ul>
+                </div>
+            </aside>
+
+            <main class="recipe-main">
+                <div class="recipe-section">
+                    <div id="recipeBadges"></div>
+                    <h2>Instructions</h2>
+                    <ol id="instructionsList"></ol>
+                </div>
+
+                <div class="recipe-section">
+                    <h2>Nutrition Highlights</h2>
+                    <ul id="nutritionList"></ul>
+                </div>
+
+                <div class="recipe-section">
+                    <h2>Best Occasions</h2>
+                    <ul id="occasionsList"></ul>
+                </div>
+
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="index.html" class="btn btn-primary">← Back to All Recipes</a>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🍳 HomeCook</h3>
+                    <p>Bringing authentic American home-style cooking to your kitchen.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">📘</a>
+                        <a href="#">📷</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📌</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HomeCook. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="recipes.js"></script>
+    <script src="recipe-detail.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
